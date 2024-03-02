@@ -8,6 +8,7 @@ body{
     background-color:#7700FF ;
     color: #55FF00;
 }
+footer,
 header .container{
     padding: 24px 40px;
     display: flex;
@@ -16,6 +17,8 @@ header .container{
     background-color:#0011ff4f ;
     color:#FFFD00 ;
 }
+footer small,
+footer a,
 header ul li,
 header ul li a{
     padding: 0px 5px;
@@ -28,11 +31,15 @@ header ul li a{
 section h1,
 section .container{
     padding: 0px 100px;
-    margin: 10px 0px;
+    margin: 40px 0px;
     display: flex;
     align-items: center;
     justify-content:center;
     letter-spacing: 5px;
+}
+section p{
+    font-size: 20px;
+    letter-spacing: 8px;
 }
 
 .container img{
@@ -52,4 +59,35 @@ section .container{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+}
+#saibaMais .container{
+    padding: 0px 100px;
+    display: flex;
+    flex-direction: column;
+}
+#saibaMais p{
+    padding: 0px 250px;
+    margin-bottom: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    background-color: #0011ff21;
+    color: #fff;
+    width: 300px;
+    height: 40px;
+    padding-left: 20px;
+}
+form button{
+    font-size: 24px;
+    width: 300px;
+    height: 40px;
+    background-color: #000;
+    color: #55FF00;
+}
+form button:hover{
+    background-color: #3e4043;
+    cursor: pointer;
 }
